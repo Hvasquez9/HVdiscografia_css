@@ -1,0 +1,58 @@
+body{
+    background-color: antiquewhite;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+}
+
+header .titulo {
+    margin-left: 50px;
+    color: purple;
+}
+
+
+ul{
+    list-style: none;
+    /* display flex para ajustar el posicionamiento de los elementos */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+ul li a{
+    color: green;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+main .division1{
+    margin-left: 50px;
+}
+
+main .division1 img{
+    width: 100%;
+}
+
+main .division2 img{
+    width: 100%;
+}
+
+main .division2{
+    margin-left: 100px;
+}
+
+main .division1 h2{
+    color: purple;
+}
+
+main .division2 h2{
+    color: purple;
+}
+

@@ -1,0 +1,10 @@
+body{
+    /* color de fondo de la pagina */
+    background: url(public/victrola-record-players-R4Rdi0EfBws-unsplash.jpg);
+    /* Adapta la imagen al contenedor */
+    background-size: cover;
+}
+
+footer{
+    backdrop-filter: blur(4px);
+}
